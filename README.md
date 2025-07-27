@@ -1,2 +1,98 @@
-# wechat
-Fullstack Task2 Wechat Static website
+# Static Wechat  Website 微信网页端静态网站开发
+
+描述: 使用纯 HTML 和 CSS 技术开发一个微信网页端的静态网站，练习最基础的 HTML + CSS 技术。
+
+知识点：HTML + CSS 实现静态页面
+
+- 知识点1: HTML 基础知识
+- 知识点2: CSS 基础知识
+- 知识点3: Flex 布局
+- 知识点4: 定位方式
+- 知识点5: Icon 下载网站
+
+
+
+### 参考原型
+
+------
+
+![wechat](image/wechat.jpg)
+
+
+
+### 工具
+
+------
+
+
+
+- VSCode
+- Chrome 浏览器
+- [Photopea](https://www.photopea.com/)，用来吸取颜色
+- [Icon](https://www.iconfont.cn/)，用来下载图标
+
+
+
+### 项目结构
+
+------
+
+
+
+```
+├── index.html          # 主页面
+├── css/
+│   ├── style.css       # 主样式文件
+├── image/
+│   ├── icons/          # 图标文件
+└── README.md           # 项目说明
+```
+
+
+
+### 核心功能模块
+
+------
+
+
+
+#### 1. 左侧导航栏
+
+- 聊天列表
+- 联系人
+- 收藏
+- 设置等功能入口
+
+
+
+#### 2. 聊天列表区域
+
+- 显示聊天对话列表
+- 支持搜索功能
+- 显示最新消息预览
+- 未读消息数量提示
+
+
+
+####  3. 聊天内容区域
+
+- 消息显示区域
+- 消息输入框
+- 工具栏（表情、文件等）
+- 消息发送功能
+
+
+
+#### 4. 右侧信息面板
+
+- 联系人信息
+- 聊天记录
+
+------
+
+
+
+### 参考教程
+
+- [MDN Web开发文档](https://developer.mozilla.org/)
+- [Flex 布局语法](https://www.ruanyifeng.com/blog/2015/07/flex-grammar.html)

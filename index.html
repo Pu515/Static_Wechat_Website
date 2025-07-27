@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WeChat Static Page</title>
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+<body>
+  <!-- 页面容器 -->
+  <div class="container">
+    <!-- 左侧区域 -->
+    <div class="sidebar">
+      <!-- 顶部三个圆点 -->
+      <div class="mac-icon">
+        <div class="circle red"></div>
+        <div class="circle yellow"></div>
+        <div class="circle green"></div>
+      </div>
+
+      <div class="nav-section">
+        <!-- 头像 -->
+        <div class="nav-item" id="avatar"><img src="./image/avatar.jpg" alt="avatar";/></div>
+        <!-- 其他图标 -->
+        <div class="nav-item"><img src="./image/xiaoxi.png" alt="xiaoxi" /></div>
+        <div class="nav-item"><img src="./image/shoucang.png" alt="shoucang" /></div>
+        <div class="nav-item"><img src="./image/wenjian.png" alt="wenjian" /></div>
+        <div class="nav-item pengyouquan">
+            <div class="notice">1</div>
+            <img src="./image/pengyouquan.png" alt="pengyouquan" />
+        </div>
+        <div class="nav-item"><img src="./image/shipin.png" alt="shipin" /></div>
+        <div class="nav-item"><img src="./image/kanyikan.png" alt="kanyikan" /></div>
+        <div class="nav-item"><img src="./image/sousuo.png" alt="sousuo" /></div>
+      </div>
+
+      <!-- 底部3个图标 -->
+      <div class="foot-section">
+        <div class="nav-item"><img src="./image/xiaochengxu.png" alt="xiaochengxu" /></div>
+        <div class="nav-item"><img src="./image/shouji.png" alt="shouji" /></div>
+        <div class="nav-item"><img src="./image/caidan.png" alt="caidan" /></div>
+      </div>
+    </div>
+
+    <!-- 中间联系人区域 -->
+    <div class="chat-list">
+      <!-- 搜索框 -->
+      <div class="search">
+        <img class="search-icon" src="./image/search.png" alt="search" />
+        <input class="search-box" type="search" placeholder="搜索"></input>
+        <button class="create-group-chat">+</button>
+      </div>
+      <!-- 聊天列表 -->
+      <div class="chat-list">
+        <!-- 聊天对象 -->
+        <div class="chat-part">
+          <div class="chat-part-avator">
+            <img src="./image/file-transfer.png", alt="chat-part-avator">
+          </div>
+          <!-- 显示信息 -->
+          <div class="chat-part-info">
+            <p class="chat-part-name">文件传输助手</p>
+            <time class="chat-access-time" datetime="20:49">20:49</time>
+            <p class="last-message">This is an message</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 右侧聊天窗口区域 -->
+    <div class="chat-window">
+      <!-- 顶部聊天名称 -->
+      <div class="chat-name">
+        <p>文件传输助手</p>
+      </div>
+      <div class="chat-box">
+        <!-- 聊天时间 -->
+        <div class="chat-time">
+          <time datetime="20:49">20:49</time>
+        </div>
+        <!-- 聊天内容 -->
+        <div class="chat-message">
+          <div class="chat-bubble">
+            <p>This is an message</p>
+            <div class="triangle-right"></div>
+          </div>
+          <img class="chat-avator" src="./image/avatar.jpg", alt="chat-avator">
+        </div>
+      </div>
+      <div class="send-message">
+      <!-- 聊天工具栏 -->
+        <div class="tool">
+          <div class="tool-item"><img src="./image/emoji.png" alt="emoji" /></div>
+          <div class="tool-item"><img src="./image/file.png" alt="file" /></div>
+          <div class="tool-item"><img src="./image/cut.png" alt="cut" /></div>
+          <div class="tool-item"><img src="./image/message.png" alt="message" /></div>
+        </div>
+        <!-- 对话输入框 -->
+        <textarea class="send-message"></textarea>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
